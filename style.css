@@ -1,0 +1,154 @@
+body {
+    background-color: #fc8ea6;
+    background-image: linear-gradient(62deg, #3c60ff 0%, #e0c3fc 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 10vh 0 0 0;
+    font-family: sans-serif;
+    font-size: 3rem;
+    animation: rainbow 5s infinite ease-in;
+  }
+  
+  .container {
+    width: 100%;
+    min-height: 100vh;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  table {
+    width: 80%;
+    margin: 40px auto;
+  
+    background-color: #eec038;
+  }
+  
+  table.list {
+    text-align: center;
+    width: 100%;
+  }
+  
+  td {
+    border: 1px solid rgb(247, 116, 116);
+    text-align: left;
+    padding: 8px 15px;
+  }
+  
+  tr:nth-child(even),
+  table.list thread > tr {
+    background-color: #759e61;
+  }
+  
+  input[type="number"],input[type="date"],input[type="email"],input[type="text"] {
+    width: 91%;
+    padding: 10px 10px;
+    margin: 0px 0 10px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 6px;
+  }
+  input[type="submit"],
+  input[type="reset"] {
+    background: rgb(212, 152, 152);
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  input[type="submit"]:hover,
+  input[type="reset"]:hover,
+  button:hover {
+    background: #593c8f;
+  }
+  
+  input[type="submit"],
+  input[type="reset"] {
+    background: #474350;
+    color: white;
+    font-size: 1.2rem;
+    font-family: cursive;
+  }
+  
+  tbody {
+    font-family: cursive;
+  }
+  
+  .input-part {
+    font-family: sans-serif;
+    font-size: 1.3rem;
+  }
+  
+  button {
+    background: #1c2541;
+    color: white;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    outline: none;
+  }
+  #footer{
+	color:rgb(226, 40, 40);
+    padding: 4% 4%;
+	display: flex;
+	
+	height: 10vh;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	
+}
+footer i{
+	display: flex;
+}
+footer i{
+	position: relative;
+	display: inline;
+	color:rgb(233, 161, 227);
+	font-size: 30px;
+	height: 60px;
+	width: 60px;
+	line-height: 60px;
+	border-radius: 50%;
+	margin: 0 15px;
+	text-align: center;
+	cursor: pointer;
+}
+footer i:before{
+	position: absolute;
+	content: '';
+	top: 0;
+	left:0;
+	height: 70%;
+	width:100%;
+	padding-top: 11px;
+	text-align: center;
+	border-radius: 50%;
+	background:#8f0326;
+	transform: scale(0.9);
+}
+i:hover:before{
+	transform: scale(1.2);
+	box-shadow: 0 0 15px #f80b03;
+}
+#copy{
+    text-align: center;
+    padding: 10px;
+}  
